@@ -1,7 +1,6 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { UiComponent } from './components/ui/ui.component';
-import { IconsModule } from '../icons/icons.module';
 
 
 
@@ -10,7 +9,6 @@ import { IconsModule } from '../icons/icons.module';
   exports: [UiComponent],
   imports: [
     CommonModule,
-    IconsModule
   ]
 })
 export class UiModule { }
