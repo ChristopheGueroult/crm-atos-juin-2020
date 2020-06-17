@@ -9,6 +9,7 @@ import { LoginModule } from './login/login.module';
 import { TemplatesModule } from './templates/templates.module';
 import { TextModule } from './text/text.module';
 import { UiModule } from './ui/ui.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { UiModule } from './ui/ui.module';
     TextModule,
     UiModule,
     TemplatesModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

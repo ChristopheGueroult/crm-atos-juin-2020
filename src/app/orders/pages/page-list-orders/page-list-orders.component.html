@@ -7,7 +7,8 @@
   </ng-container>
 
   <ng-container class="contents">
-    <div>table component</div>
+    <!-- <div>{{ collection | json}}</div> -->
+    <app-table-light [headers]="headers"></app-table-light>
 
     <app-btn label="Add an Order" route="add" color="color-light"></app-btn>
     <app-btn label="Angular" href="https://www.angular.io" color="color-two"></app-btn>
