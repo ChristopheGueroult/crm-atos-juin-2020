@@ -9,6 +9,10 @@
 ✔ TemplatesModule @done(20-06-15 13:18)
 ✔ life cycles @done(20-06-16 10:43)
 ✔ TextModule @done(20-06-16 11:22)
-☐ router
-☐ components strupides vs components intelligents
-☐ nav-items component with @Input() and interface
+✔ router @done(20-06-17 08:25)
+✔ components stupides vs components intelligents @done(20-06-17 08:30)
+✔ tp router @done(20-06-17 08:30)
+  ✔ PageNotFoundRoutingModule @done(20-06-17 08:30)
+  ✔ ClientsRoutingModule @done(20-06-17 08:30)
+  ✔ navigation vers la route clients @done(20-06-17 08:30)
+✔ nav-items component with @Input() and interface @done(20-06-17 08:30)

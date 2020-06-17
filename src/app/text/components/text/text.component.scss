@@ -11,12 +11,14 @@ app-text {
     color: $dark-color;
   }
 }
+.text {
+  .color-light {
+    h1, h2, h3, p, span, i, li {
+      color: $light-color;
+    }
+  }
+}
 
-// .pages {
-//   h1, h2, h3, p, span, i, li {
-//     color: $dark-color;
-//   }
-// }
 
 h1 {
   font-size: $h1-fz;

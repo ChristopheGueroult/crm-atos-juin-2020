@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { TemplatesModule } from '../templates/templates.module';
+import { TextModule } from '../text/text.module';
 import { OrdersRoutingModule } from './orders-routing.module';
 import { PageListOrdersComponent } from './pages/page-list-orders/page-list-orders.component';
 
@@ -9,7 +11,9 @@ import { PageListOrdersComponent } from './pages/page-list-orders/page-list-orde
   declarations: [PageListOrdersComponent],
   imports: [
     CommonModule,
-    OrdersRoutingModule
+    OrdersRoutingModule,
+    TemplatesModule,
+    TextModule
   ]
 })
 export class OrdersModule { }

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { LibraryModule } from '../library/library.module';
 import { TextModule } from '../text/text.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,7 +13,7 @@ import { NavComponent } from './components/nav/nav.component';
   imports: [
     CommonModule,
     TextModule,
-    RouterModule
+    LibraryModule
   ],
   exports: [HeaderComponent, NavComponent, FooterComponent]
 })
