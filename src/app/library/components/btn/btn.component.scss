@@ -3,8 +3,7 @@
 
 a, button {
   border: none;
-  margin-left: 10px;
-  color: $light-color;
+  margin-right: 10px;
   display: inline-block;
   padding: 1em;
   font-size: $regular-fz;
@@ -15,6 +14,43 @@ a, button {
     background: darken($color1, 10);
   }
 }
+
+// colors
+
+// a, button {
+//   color: $light-color;
+// }
+
+// .color-dark {
+//   a, button {
+//     color: $light-color;
+//   }
+// }
+// .color-one {
+//   a, button {
+//     color: $color1;
+//   }
+// }
+// .color-two {
+//   a, button {
+//     color: $color2;
+//   }
+// }
+// .color-three {
+//   a, button {
+//     color: $color3;
+//   }
+// }
+// .color-error {
+//   a, button {
+//     color: $color-error;
+//   }
+// }
+// .color-success {
+//   a, button {
+//     color: $color-success;
+//   }
+// }
 
 // :host-context(.bg-color-two) {
 //   a, button {
