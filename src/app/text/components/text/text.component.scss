@@ -6,6 +6,7 @@ app-text {
   padding: 10px;
 }
 
+// colors
 .text {
   h1, h2, h3, p, span, i, li {
     color: $dark-color;
@@ -18,7 +19,29 @@ app-text {
     }
   }
 }
+.text {
+  .color-one {
+    h1, h2, h3, p, span, i, li {
+      color: $color1;
+    }
+  }
+}
+.text {
+  .color-two {
+    h1, h2, h3, p, span, i, li {
+      color: $color2;
+    }
+  }
+}
+.text {
+  .color-three {
+    h1, h2, h3, p, span, i, li {
+      color: $color3;
+    }
+  }
+}
 
+// sizes
 
 h1 {
   font-size: $h1-fz;
