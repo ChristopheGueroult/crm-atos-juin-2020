@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-table-light',
@@ -8,11 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TableLightComponent implements OnInit {
   @Input() headers: string[];
   constructor() {
-
   }
 
   ngOnInit(): void {
-    console.log(this.headers);
   }
-
 }
