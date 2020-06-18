@@ -24,10 +24,10 @@
 ✔ pipes angular @done(20-06-18 11:16)
 ✔ directive perso @done(20-06-18 11:16)
 ✔ pipe perso @done(20-06-18 11:16)
-☐ change detection and objects input
-☐ maintenabilite, reutilisabilite et bonnes pratiques et viewencapsulation on table-light component
-☐ agilité to change table en cours de projet
-☐ :host and :host-context() angular
+✔ change detection and objects input @done(20-06-18 11:39)
+✔ maintenabilite, reutilisabilite et bonnes pratiques et viewencapsulation on table-light component @done(20-06-18 13:21)
+✔ agilité to change table en cours de projet @done(20-06-18 14:04)
+✔ :host and :host-context() angular @done(20-06-18 14:04)
 ☐ come back on btn component for @Output()
 
 ☐ TP Client
