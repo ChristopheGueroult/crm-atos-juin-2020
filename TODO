@@ -43,4 +43,14 @@
   ✔ utiliser la meme directive pour le bg des td states @done(20-06-18 16:18)
   ✔ state-active, state-inactive (2 noms de class que vous devez ajouter dans table-light.scss et table-dark.scss) @done(20-06-18 16:18)
 
-☐ Liens docusign
+
+  ☐ tp edit order
+
+  ☐ créer une route qui prend un parametre id apres edit/?
+  ☐ créer le component pour la page edit-order
+  ☐ sur list-order-component.html ajouter un click sur le tr qui appel edit(item)
+  ☐ sur liste-order-component.ts la fonction edit redirige vers la route orders/edit/1
+  ☐ sur edit-order-component.ts injecter ActivatedRoute (observable data)
+  ☐ souscrire à l'objet data pour récupérer l'id dans l'url
+  ☐ this.os.getItemById(id) (appel http) dans le service
+  ☐ sur edit-order-component.html utilisez une instance de form-order et binder l'input initItem avec l'item que vous venez de récupérer dans votre subscribe
