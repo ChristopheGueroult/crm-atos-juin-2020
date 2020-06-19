@@ -28,6 +28,19 @@
 ✔ maintenabilite, reutilisabilite et bonnes pratiques et viewencapsulation on table-light component @done(20-06-18 13:21)
 ✔ agilité to change table en cours de projet @done(20-06-18 14:04)
 ✔ :host and :host-context() angular @done(20-06-18 14:04)
-☐ come back on btn component for @Output()
+✔ come back on btn component for @Output() @done(20-06-18 14:40)
 
-☐ TP Client
+✔ TP Client @done(20-06-18 16:18)
+
+✔ enum client (ACTIVE, INACTIVE) @done(20-06-18 16:18)
+✔ interface ClientI (voir db.json) @done(20-06-18 16:18)
+✔ model Client @done(20-06-18 16:18)
+✔ ClientsService @done(20-06-18 16:18)
+✔ PageListClientComponent @done(20-06-18 16:18)
+  ✔ template-one-col avec bgColor2 @done(20-06-18 16:18)
+  ✔ table-light ou table-dark (name, ca ht, tva, ca ttc, state) @done(20-06-18 16:18)
+  ✔ item.ca (ca total ht) affichez une colone CA TTC à l'aide d'un nouveau Pipe qui return ca + tva @done(20-06-18 16:18)
+  ✔ utiliser la meme directive pour le bg des td states @done(20-06-18 16:18)
+  ✔ state-active, state-inactive (2 noms de class que vous devez ajouter dans table-light.scss et table-dark.scss) @done(20-06-18 16:18)
+
+☐ Liens docusign

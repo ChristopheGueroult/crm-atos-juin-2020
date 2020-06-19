@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { OrdersService } from '../../services/orders.service';
 import { Order } from 'src/app/shared/models/order';
-import { Subscription, Observable } from 'rxjs';
+import { Subscription, Observable, Subject } from 'rxjs';
 import { StateOrder } from 'src/app/shared/enums/state-order.enum';
 
 @Component({
@@ -12,6 +12,7 @@ import { StateOrder } from 'src/app/shared/enums/state-order.enum';
 export class PageListOrdersComponent implements OnInit, OnDestroy {
   // public collection: Order[];
   public collection$: Observable<Order[]>;
+  // public collection$: Subject<Order[]> = new Subject();
   public headers: string[];
   public states = Object.values(StateOrder);
   // private sub: Subscription;
@@ -19,9 +20,9 @@ export class PageListOrdersComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.collection$ = this.os.collection;
-    // this.sub = this.os.collection.subscribe(
+    // this.os.collection.subscribe(
     //   (col) => {
-    //     this.collection = col;
+    //     this.collection$.next(col);
     //   }
     // );
     this.headers = [
@@ -46,6 +47,7 @@ export class PageListOrdersComponent implements OnInit, OnDestroy {
     console.log('popup active');
 
   }
+
 
   ngOnDestroy() {
     // this.sub.unsubscribe();
