@@ -36,6 +36,11 @@ export class FormOrderComponent implements OnInit {
       id: [this.initItem.id]
     });
 
+    this.form.valueChanges.subscribe((datas) => {
+      console.log(datas);
+
+    });
+
   }
 
   public onSubmit() {
